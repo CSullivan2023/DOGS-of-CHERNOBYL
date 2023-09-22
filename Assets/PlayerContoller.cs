@@ -6,7 +6,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject groundchecker;
+    public LayerMask whatIsGround;
+
     public float maxSpeed = 10.0f;
+    bool isOnGround = false;
+
     // Ablew to manipulate the body
     Rigidbody2D playerobject;
     // Start is called before the first frame update
@@ -26,6 +30,9 @@ public class PlayerController : MonoBehaviour
 
         //Velocity
         playerobject.velocity = new Vector2(movementValueX * maxSpeed, playerobject.velocity.y);
+
+        //Check to see if the ground check if object is touching ground
+        isOnGround = Physics2D.OverlapCircle(groundchecker.transform.position, 1.0f, whatIsGround); 
 
     }
 }
