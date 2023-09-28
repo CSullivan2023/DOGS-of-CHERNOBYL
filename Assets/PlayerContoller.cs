@@ -34,5 +34,9 @@ public class PlayerController : MonoBehaviour
         //Check to see if the ground check if object is touching ground
         isOnGround = Physics2D.OverlapCircle(groundchecker.transform.position, 1.0f, whatIsGround); 
 
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true)
+        {
+            playerobject.AddForce(new Vector2(0.0f, 100.0f));
+        }
     }
 }
