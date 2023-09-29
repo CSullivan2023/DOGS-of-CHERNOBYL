@@ -17,7 +17,7 @@ public class spawner : MonoBehaviour
     void Start()
     {
         //random.range returns a random float between two values
-        timeToNextSpawn = Random.Range(minSpawnTime, maxSpawnTime);  
+        timeToNextSpawn = Random.Range(minSpawnTime, maxSpawnTime);
     }
 
     // Update is called once per frame
@@ -38,7 +38,8 @@ public class spawner : MonoBehaviour
 
             //After spawning, we select a new random time for the next spawn and set our timer back to zero 
             timeToNextSpawn = Random.Range(minSpawnTime, maxSpawnTime);
-            timeSinceLastSpawn = 0.0f; 
+            timeSinceLastSpawn = 0.0f;
         }
-        
+
     }
+}
