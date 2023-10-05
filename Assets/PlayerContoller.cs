@@ -38,5 +38,5 @@ public class PlayerController : MonoBehaviour
         {
             playerobject.AddForce(new Vector2(0.0f, 400.0f));
         }
-    }
+    }     
 }
