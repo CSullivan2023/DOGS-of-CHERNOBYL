@@ -10,7 +10,7 @@ public class destroyer : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //if the gameobject that has collided with our trigger is tagged with cleanup...
-       if (collision.gameObject.tag == "CleanUp")
+       if (collision.gameObject.tag == "cleanup")
         {
             //then we use this method to destory it 
             Destroy(collision.gameObject);
