@@ -1459,17 +1459,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: dog
       objectReference: {fileID: 0}
+    - target: {fileID: 3247613423061776631, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1665203667, guid: 30c83386dc089cf4e8f9db82a3862426, type: 3}
+    - target: {fileID: 3247613423061776631, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247613423061776631, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247613423061776631, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.2673306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.4494143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.95
+      value: -5.72
       objectReference: {fileID: 0}
     - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.96
+      value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 3348797391508947707, guid: fedd2689ca4aee24c9b26b6617a976c8, type: 3}
       propertyPath: m_LocalPosition.z
